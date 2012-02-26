@@ -6,7 +6,7 @@ void testApp::setup(){
 	//put in the whole directory when you are loading files!!! 
 	img1 = new smImage ("/Users/yinliu/Downloads/SM12_flood_fill_images_v2/flood_fill_test_01.raw",320,240);
 	labelImg = new smImage(320,240);
-	label= 50;
+	label= 100;
 	
 }
 

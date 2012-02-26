@@ -1,0 +1,19 @@
+In file included from /Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:10:
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.h:15:9: error: #include expects "FILENAME" or <FILENAME>
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp: In constructor 'smObject::smObject(int)':
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:15: error: 'ID' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:18: error: 'midPointX' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:19: error: 'midPointY' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:21: error: 'right' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:22: error: 'bottom' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:23: error: 'top' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:24: error: 'left' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp: At global scope:
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:27: error: no 'void smObject::acceptPixel(int, int)' member function declared in class 'smObject'
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp: In member function 'void smObject::acceptPixel(int, int)':
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:32: error: 'midPointX' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:33: error: 'midPointY' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:36: error: 'left' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:39: error: 'right' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:42: error: 'top' was not declared in this scope
+/Users/yinliu/Documents/openFrameworks/SpatialMedia/week4/seedFill2/src/smObject.cpp:45: error: 'bottom' was not declared in this scope
