@@ -55,16 +55,6 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	0032ECAB14F9599000ADD257 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00DFBBDB14DF06E20070A85C /* testApp.cpp */;
-		name = "testApp.cpp: 97";
-		rLen = 0;
-		rLoc = 1759;
-		rType = 0;
-		vrLen = 930;
-		vrLoc = 0;
-	};
 	0032ECB714F95A1500ADD257 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00DFBBDB14DF06E20070A85C /* testApp.cpp */;
@@ -93,6 +83,16 @@
 		rLoc = 331;
 		rType = 0;
 		vrLen = 414;
+		vrLoc = 0;
+	};
+	006BC35F14FAB8B400D8C141 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00DFBBDB14DF06E20070A85C /* testApp.cpp */;
+		name = "testApp.cpp: 16";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 922;
 		vrLoc = 0;
 	};
 	00CCDF6E14F8382E00BF29DC /* PBXTextBookmark */ = {
@@ -132,7 +132,7 @@
 	00DFBBDB14DF06E20070A85C /* testApp.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {934, 1300}}";
-			sepNavSelRange = "{579, 10}";
+			sepNavSelRange = "{517, 0}";
 			sepNavVisRange = "{0, 922}";
 		};
 	};
@@ -202,15 +202,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 351885732;
-			PBXWorkspaceStateSaveDate = 351885732;
+			PBXPerProjectTemplateStateSaveDate = 351975571;
+			PBXWorkspaceStateSaveDate = 351975571;
 		};
 		perUserProjectItems = {
 			0007178114BF69B200688C26 /* PlistBookmark */ = 0007178114BF69B200688C26 /* PlistBookmark */;
-			0032ECAB14F9599000ADD257 /* PBXTextBookmark */ = 0032ECAB14F9599000ADD257 /* PBXTextBookmark */;
 			0032ECB714F95A1500ADD257 /* PBXTextBookmark */ = 0032ECB714F95A1500ADD257 /* PBXTextBookmark */;
 			005B81C714F546D500591E7F /* PBXTextBookmark */ = 005B81C714F546D500591E7F /* PBXTextBookmark */;
 			005BC81514E07596005EEEBE /* PBXTextBookmark */ = 005BC81514E07596005EEEBE /* PBXTextBookmark */;
+			006BC35F14FAB8B400D8C141 /* PBXTextBookmark */ = 006BC35F14FAB8B400D8C141 /* PBXTextBookmark */;
 			00CCDF6E14F8382E00BF29DC /* PBXTextBookmark */ = 00CCDF6E14F8382E00BF29DC /* PBXTextBookmark */;
 			00CCDF7014F8382E00BF29DC /* PBXTextBookmark */ = 00CCDF7014F8382E00BF29DC /* PBXTextBookmark */;
 			00EF4CCD14F3FAE900157776 /* PBXTextBookmark */ = 00EF4CCD14F3FAE900157776 /* PBXTextBookmark */;

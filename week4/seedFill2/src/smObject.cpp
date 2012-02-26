@@ -29,8 +29,8 @@ void smObject :: acceptPixel (int xPos, int yPos)
     pixelCount++;
 		
 	//modify the pixels as they come in
-	midPointX++;
-	midPointY++;
+	midPointX+=xPos;
+	midPointY+=yPos;
 	
 	//everytime a pixel comes in...we maake them..min or maximum
 	if (xPos<left) {

@@ -6,7 +6,7 @@ void testApp::setup(){
 	//put in the whole directory when you are loading files!!! 
 	img1 = new smImage ("/Users/yinliu/Downloads/SM12_flood_fill_images_v2/flood_fill_test_01.raw",320,240);
 	labelImg = new smImage(320,240);
-	label= 1;  //label starts at 0 so that it is easier to identify number of objects later
+	label= 100;  //label starts at 0 so that it is easier to identify number of objects later
 	
 }
 
@@ -35,6 +35,7 @@ void testApp::update(){
 	{
 		smObject* OBJ = new smObject (i);
 		objectSet.push_back(OBJ);  //adding a new object to our dynamic array
+		
 	}
 	
 	
@@ -49,19 +50,19 @@ void testApp::update(){
 			labelImg->setPixel(i,j, V);
 		}
 	}
-	
 	/*
+	
 	//go through shapes..saying .size() is safer than say label
-	for(int i=0; i<objectSet.size(); i++)   
+	for(int i=0; i<label; i++)   
 	{   
+		printf("%d\n", objectSet[i]->pixelCount);
 		//center of mass
-		int midPointX = objectSet[i]->midPointX/objectSet[i]->pixelCount;
-	    int midPointY = objectSet[i]->midPointY/objectSet[i]->pixelCount;
-	    labelImg ->setPixel(midPointX, midPointY, 255);
+		int midPointx = objectSet[i]->midPointX/objectSet[i]->pixelCount;
+	    int midPointy = objectSet[i]->midPointY/objectSet[i]->pixelCount;
+	    labelImg ->setPixel(midPointx, midPointy, 255);
 		
 	}
-	 */
-	
+	*/ 
 		
 }
 
@@ -79,8 +80,9 @@ void testApp::draw(){
 		bottom= objectSet[i]->bottom;
 	
 		ofEnableAlphaBlending();
-		ofSetColor(255,0,0,50);
-		ofRect(left, top, left-right, top-bottom);			
+		ofNoFill();
+		ofSetColor(255,0,0);
+		ofRect(left+50, top+50, right-left, bottom-top);			
 	}
 			
 }
@@ -103,8 +105,7 @@ bool testApp::seedFill(int x, int y, int label) {
 		seedFill(x,y+1,label); //south
 		seedFill(x-1,y,label); //west
 	}
-	
-	
+
 	return true;
 	
 }
